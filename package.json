@@ -1,0 +1,22 @@
+{
+  "name": "ana-model-gen",
+  "version": "1.0.0",
+  "description": "Generate SystemVerilog analog behavioral models from HSPICE netlists and Markdown analog specs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "jest"
+  },
+  "keywords": ["systemverilog", "hspice", "analog", "serdes", "sva", "modeling"],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "ts-jest": "^29.0.0"
+  },
+  "dependencies": {}
+}
